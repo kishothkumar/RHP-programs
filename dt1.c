@@ -2,13 +2,15 @@
 #include<stdlib.h>
 #include<string.h>
 int main(){
-    char str[100];                                  //apple
+    char str[100];                               
     scanf("%s",str);
     int arr[128]={0};
     for(int i=0;i<strlen(str);i++)
     {
         arr[str[i]]++;
     }
+
+
     for(int i=0;i<127;i++)
     {
         if(arr[i]%2!=0)
