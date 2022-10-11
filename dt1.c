@@ -9,8 +9,6 @@ int main(){
     {
         arr[str[i]]++;
     }
-
-
     for(int i=0;i<127;i++)
     {
         if(arr[i]%2!=0)
